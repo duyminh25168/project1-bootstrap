@@ -1,0 +1,59 @@
+/* PC */
+@media (max-width: 1199.98px) {
+}
+
+/* ipad and mobile */
+@media (max-width: 991.98px) {
+  .main__about,
+  .main__blog,
+  .main__contact,
+  .main__home,
+  .main__plans,
+  .main__pricing,
+  .main__work,
+  .main__testimonials {
+    padding: 50px 0;
+  }
+
+  .navbar__list {
+    display: none;
+  }
+
+  .navbar__icon {
+    display: block;
+  }
+  .work__item,
+  .blog-item {
+    margin-bottom: 30px;
+  }
+  .header__logo{
+    margin-right: 0;
+  }
+}
+
+/* ipad */
+@media (max-width: 767.98px) {
+  .about-block2 {
+    flex-direction: column-reverse;
+  }
+  .about-block1__title,
+  .about-block2__title,
+  .about-block1__desc,
+  .about-block2__desc {
+    text-align: center;
+  }
+  .about-block1__img,
+  .about-block2__img {
+    padding: 50px 0;
+  }
+  .plans__box + .plans__box::before {
+    display: none;
+  }
+  .plans__box {
+    margin-bottom: 30px;
+  }
+}
+
+/* mobile */
+@media (max-width: 575.98px) {
+}
